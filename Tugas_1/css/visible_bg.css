@@ -1,0 +1,19 @@
+#muncul {
+  animation: muncul 0s 2.5s forwards;
+  visibility: hidden;
+}
+
+@keyframes muncul {
+  to  { 
+    visibility: visible; 
+    }
+}
+.instagram-box{
+	animation: insta 0s 2.9s forwards;
+	visibility: hidden;
+}
+@keyframes insta{
+	to {
+		visibility: visible;
+	}
+}

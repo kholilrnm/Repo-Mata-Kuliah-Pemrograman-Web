@@ -1,0 +1,507 @@
+html{
+   scroll-behavior: smooth;
+}
+body{
+  	margin: 0;
+}
+.navbar{
+	top: 0;
+	background-color: #31302b;
+	position: fixed; 
+	left: 0;
+	width: 100%;
+	border-bottom: 4px solid #ff5d00;
+}
+.isi-navbar1{
+	margin: 0;
+	text-align: left;
+}
+.isi-navbar2{
+	text-align: right;
+}
+.navbar .isi-navbar2 .img-2{
+	padding: 1px;
+	margin-right: 20px;
+}
+.navbar .isi-navbar2 img{
+	height: 60%;
+	width: 60%;
+}
+.navbar .table-navbar{
+	margin: 0;
+	top: 0;
+	width: 100%;
+}
+.navbar a{
+	float: none;
+	display: inline-block;
+	color: #f2f2f2;
+	font-weight: 600;
+	text-align: center;
+	font-family: serif, sans-serif;
+	padding: 0.8em 0.8em;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+.navbar .isi-navbar1 a:hover{
+  	background: #676056;
+  	border-top: 3px solid red;
+}
+.instagram-box {
+  background: #517fa4;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #ff5d00;
+}
+.header{
+	margin-top: 10px;
+	background-color: #D3D3D3;
+	display: grid;
+  grid-template-columns: 34% auto;
+  padding: 3em 1em;
+  border-bottom: 4px solid #ff5d00;
+}
+img{ 
+	margin-top: 6%;
+    justify-self: center;
+}
+.header hr{
+	width: 60%;
+}
+.header .profil{
+	width: 36%;
+	height: 80%;
+	border-radius: 10em;
+	border-top: 2.2px solid #cf2031;
+	border-right: 2.2px solid #0f7dc8;
+	border-bottom: 2.2px solid #2eb31a;
+	border-left: 2.2px solid #eab823;
+	
+}
+.header .header-content{
+	padding: 2em;
+}
+.container{
+	width: 100%;
+}
+.container hr{
+	margin: 0;
+	border: solid 2px #ff5d00; 
+}
+.table-container{
+	width: 100%;
+	margin-top: 10px;
+	border-bottom: 4px solid #ff5d00;
+}
+.table-container td{
+	vertical-align: top;
+}
+.title{
+	background-color: #ff5d00;
+	color: white;
+	display: inline-block;
+	padding: 0.4em 0.4em;
+	margin: 0;
+	border-bottom-right-radius: 12px;
+	margin-bottom: 10px;
+}
+.tentangku{
+	width: 50%;
+}
+.text{
+	line-height: 1.6;
+	font-family: verdana;
+	font-size: 13.5px;
+}
+.biodata{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.skills{
+	margin-top: 1em;
+	margin-bottom: 2em;
+	width: 300%; 
+  	background-color: #ddd;
+  	border-radius: 1.25em; 
+}
+.skillku img{
+	width: 50px;
+	height: 50px;
+}
+.gambarLogo{
+	width: 30%;
+}
+.kelasSkill{
+	width: 100%;
+}
+.kelasGambar{
+	margin-top: 2px;
+	margin-left: 30px;
+}
+.s{
+	width: 100%;
+	text-align: right; 
+	padding-top: 3px; 
+  	padding-bottom: 3px; 
+  	font-weight: bold;
+  	color: black; 
+}
+.html{
+	width: 85%; 
+	background-color: #ff5100;
+	border-radius: 1.25em;
+  	animation: html 6.5s ease-in-out forwards;
+ 	-webkit-animation: html 6.5s ease-in-out forwards;
+}
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 85%;
+  }
+}
+@-webkit-keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 85%;
+  }
+} 
+.css{
+	width: 70%; 
+	background-color: #2196F3;
+	border-radius: 1.25em;
+  	animation: css 5.5s ease-in-out forwards;
+ 	-webkit-animation: css 5.5s ease-in-out forwards;
+}
+@keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}  
+.js{
+	width: 30%; 
+	background-color: #c7d10a;
+	border-radius: 1.25em;
+  	animation: js 3.5s ease-in-out forwards;
+ 	-webkit-animation: js 3.5s ease-in-out forwards;
+}
+@keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30%;
+  }
+} 
+.php{
+	width: 70%; 
+	background-color: #46d106;
+	border-radius: 1.25em;
+  	animation: php 5.5s ease-in-out forwards;
+ 	-webkit-animation: php 5.5s ease-in-out forwards;
+}
+@keyframes php {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes php {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+.laravel{
+	width: 73%; 
+	background-color: #d10618;
+	border-radius: 1.25em;
+  	animation: laravel 5.7s ease-in-out forwards;
+ 	-webkit-animation: laravel 5.7s ease-in-out forwards;
+}
+@keyframes laravel {
+  from {
+    width: 0;
+  }
+  to {
+    width: 73%;
+  }
+}
+@-webkit-keyframes laravel {
+  from {
+    width: 0;
+  }
+  to {
+    width: 73%;
+  }
+}
+.java{
+	width: 50%; 
+	background-color: #808080;
+	border-radius: 1.25em;
+  	animation: java 4.7s ease-in-out forwards;
+ 	-webkit-animation: java 4.7s ease-in-out forwards;
+}
+@keyframes java {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes java {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+} 
+.C{
+	width: 75%; 
+	background-color: #a806d1;
+	border-radius: 1.25em;
+  	animation: c 6.7s ease-in-out forwards;
+ 	-webkit-animation: c 6.7s ease-in-out forwards;
+}
+@keyframes c {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-webkit-keyframes c {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+.mysql{
+	width: 65%;
+	background-color: #70310f;
+	border-radius: 1.25em;
+  	animation: mysql 5.2s ease-in-out forwards;
+ 	-webkit-animation: mysql 5.2s ease-in-out forwards;
+}
+@keyframes mysql {
+  from {
+    width: 0;
+  }
+  to {
+    width: 65%;
+  }
+}
+@-webkit-keyframes mysql {
+  from {
+    width: 0;
+  }
+  to {
+    width: 65%;
+  }
+} 
+.container-1{
+	width: 100%;
+	margin: 0;
+}
+.container-1 hr{
+	margin: 0;
+	border: solid 2px #ff5d00; 
+}
+.table-container-1{
+	width: 100%;
+	margin-top: 10px;
+	background-color: #D3D3D3;
+	border-bottom: 4px solid #ff5d00;
+}
+.table-container-1 .content-pendidikan:nth-child(odd){
+	background-color: #FFE5CC;
+}
+.pendidikan{
+	width: 50%;
+}
+.container-1 img{
+	width: 30%;
+	height: 30%;
+}
+.container-1 .content-pendidikan{
+	text-align: center;
+}
+.container-1 .content-pengalaman{
+	text-align: center;
+}
+.pend{
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.peng{
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.peng .content-pengalaman:nth-child(odd){
+	background-color: #FFE5CC;
+}
+.container-2{
+	width: 100%;
+	margin: 0;
+	height: 300px;
+}
+.container-2 hr{
+	margin: 0;
+	border: solid 2px #ff5d00;
+}
+.table-container-2{
+	width: 100%;
+	margin-top: 10px;
+}
+.isi-kontak{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.container-2 .content-kontak{
+	text-align: center;
+}
+/*.container-2 img{
+	width: 80px;
+	height: 80px;
+}*/
+.container-2 .isi-kontak{
+	margin-left: 20%;
+	margin-right: 50%;	
+}
+.dicoding-icon{
+  width: 100px;
+  height: 100px;
+}
+.git-icon{  
+  width: 80px;
+  height: 80px;
+}
+.ig-icon{  
+  width: 70px;
+  height: 70px;
+}
+.link-icon{  
+  width: 90px;
+  height: 40px;
+}
+.gayadua{
+  font-size: 18px;
+  width: 720px;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: gayadua 4s steps(200, end);
+  animation: gayadua 4s steps(200, end);
+}
+@keyframes gayadua{
+    from { width: 0; 
+    }
+}
+@-webkit-keyframes gayadua{
+    from { width: 0; 
+    }
+}
+.gayatiga{
+  font-size: 18px;
+  width: 720px;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: gayatiga 12s steps(200, end);
+  animation: gayatiga 12s steps(200, end);
+}
+@keyframes gayatiga{
+    from { width: 0; 
+    }
+}
+@-webkit-keyframes gayatiga{
+    from { width: 0; 
+    }
+} 
+#gayasatu {
+  animation: gayasatu 0s 2.9s forwards;
+  visibility: hidden;
+}
+
+@keyframes gayasatu {
+  to   { 
+    visibility: visible; 
+    }
+}
+.profil{
+	animation-name: slide;
+	animation-duration: 4.5s;
+	position: static;
+}
+@-webkit-keyframes slide {
+    2% { 
+    	opacity: 0.1; 
+    	margin-left: -10250px;
+		position: static;
+    }
+    100% { 
+    	opacity: 1; 
+    	margin-left: 0;
+		position: static;
+    }
+}
+
+@keyframes slide {
+    2% { 
+    	opacity: 0.1; 
+    	margin-left: -950px;
+		position: static;
+    }
+    100% { 
+    	opacity: 1; 
+    	margin-left: 0;
+		position: static;
+    }
+}
+.footer{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: #31302b;
+	color: white;
+	text-align: center;
+	margin-bottom: 0%;
+}
+
