@@ -1,0 +1,1024 @@
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body {
+  min-width: 960px;
+}
+
+/* Container
+----------------------------------------------------------------------------------------------------*/
+
+.container_16 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,   /*saya buat 2 karena terdapat 2 div yang berbeda tetapi struktur ukuran sama*/
+.grid_8_1, /*saya buat 2 karena terdapat 2 div yang berbeda tetapi struktur ukuran sama*/
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11,
+.push_12, .pull_12,
+.push_13, .pull_13,
+.push_14, .pull_14,
+.push_15, .pull_15,
+.push_16, .pull_16 {
+  position: relative;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+/* Grid >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_16 .grid_1 {
+  width: 40px;
+}
+
+.container_16 .grid_2 {
+  width: 100px;
+}
+
+.container_16 .grid_3 {
+  width: 160px;
+}
+
+.container_16 .grid_4 {
+  width: 220px;
+}
+
+.container_16 .grid_5 {
+  width: 280px;
+}
+
+.container_16 .grid_6 {
+  width: 340px;
+}
+
+.container_16 .grid_7 {
+  width: 400px;
+}
+
+.container_16 .grid_8 {
+  width: 460px;
+}
+.container_16 .grid_8_1 {
+  width: 460px;
+}
+.container_16 .grid_9 {
+  width: 520px;
+}
+
+.container_16 .grid_10 {
+  width: 580px;
+}
+
+.container_16 .grid_11 {
+  width: 640px;
+}
+
+.container_16 .grid_12 {
+  width: 700px;
+}
+
+.container_16 .grid_13 {
+  width: 760px;
+}
+
+.container_16 .grid_14 {
+  width: 820px;
+}
+
+.container_16 .grid_15 {
+  width: 880px;
+}
+
+.container_16 .grid_16 {
+  width: 940px;
+}
+
+/* Prefix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_16 .prefix_1 {
+  padding-left: 60px;
+}
+
+.container_16 .prefix_2 {
+  padding-left: 120px;
+}
+
+.container_16 .prefix_3 {
+  padding-left: 180px;
+}
+
+.container_16 .prefix_4 {
+  padding-left: 240px;
+}
+
+.container_16 .prefix_5 {
+  padding-left: 300px;
+}
+
+.container_16 .prefix_6 {
+  padding-left: 360px;
+}
+
+.container_16 .prefix_7 {
+  padding-left: 420px;
+}
+
+.container_16 .prefix_8 {
+  padding-left: 480px;
+}
+
+.container_16 .prefix_9 {
+  padding-left: 540px;
+}
+
+.container_16 .prefix_10 {
+  padding-left: 600px;
+}
+
+.container_16 .prefix_11 {
+  padding-left: 660px;
+}
+
+.container_16 .prefix_12 {
+  padding-left: 720px;
+}
+
+.container_16 .prefix_13 {
+  padding-left: 780px;
+}
+
+.container_16 .prefix_14 {
+  padding-left: 840px;
+}
+
+.container_16 .prefix_15 {
+  padding-left: 900px;
+}
+
+/* Suffix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_16 .suffix_1 {
+  padding-right: 60px;
+}
+
+.container_16 .suffix_2 {
+  padding-right: 120px;
+}
+
+.container_16 .suffix_3 {
+  padding-right: 180px;
+}
+
+.container_16 .suffix_4 {
+  padding-right: 240px;
+}
+
+.container_16 .suffix_5 {
+  padding-right: 300px;
+}
+
+.container_16 .suffix_6 {
+  padding-right: 360px;
+}
+
+.container_16 .suffix_7 {
+  padding-right: 420px;
+}
+
+.container_16 .suffix_8 {
+  padding-right: 480px;
+}
+
+.container_16 .suffix_9 {
+  padding-right: 540px;
+}
+
+.container_16 .suffix_10 {
+  padding-right: 600px;
+}
+
+.container_16 .suffix_11 {
+  padding-right: 660px;
+}
+
+.container_16 .suffix_12 {
+  padding-right: 720px;
+}
+
+.container_16 .suffix_13 {
+  padding-right: 780px;
+}
+
+.container_16 .suffix_14 {
+  padding-right: 840px;
+}
+
+.container_16 .suffix_15 {
+  padding-right: 900px;
+}
+
+/* Push Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_16 .push_1 {
+  left: 60px;
+}
+
+.container_16 .push_2 {
+  left: 120px;
+}
+
+.container_16 .push_3 {
+  left: 180px;
+}
+
+.container_16 .push_4 {
+  left: 240px;
+}
+
+.container_16 .push_5 {
+  left: 300px;
+}
+
+.container_16 .push_6 {
+  left: 360px;
+}
+
+.container_16 .push_7 {
+  left: 420px;
+}
+
+.container_16 .push_8 {
+  left: 480px;
+}
+
+.container_16 .push_9 {
+  left: 540px;
+}
+
+.container_16 .push_10 {
+  left: 600px;
+}
+
+.container_16 .push_11 {
+  left: 660px;
+}
+
+.container_16 .push_12 {
+  left: 720px;
+}
+
+.container_16 .push_13 {
+  left: 780px;
+}
+
+.container_16 .push_14 {
+  left: 840px;
+}
+
+.container_16 .push_15 {
+  left: 900px;
+}
+
+/* Pull Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_16 .pull_1 {
+  left: -60px;
+}
+
+.container_16 .pull_2 {
+  left: -120px;
+}
+
+.container_16 .pull_3 {
+  left: -180px;
+}
+
+.container_16 .pull_4 {
+  left: -240px;
+}
+
+.container_16 .pull_5 {
+  left: -300px;
+}
+
+.container_16 .pull_6 {
+  left: -360px;
+}
+
+.container_16 .pull_7 {
+  left: -420px;
+}
+
+.container_16 .pull_8 {
+  left: -480px;
+}
+
+.container_16 .pull_9 {
+  left: -540px;
+}
+
+.container_16 .pull_10 {
+  left: -600px;
+}
+
+.container_16 .pull_11 {
+  left: -660px;
+}
+
+.container_16 .pull_12 {
+  left: -720px;
+}
+
+.container_16 .pull_13 {
+  left: -780px;
+}
+
+.container_16 .pull_14 {
+  left: -840px;
+}
+
+.container_16 .pull_15 {
+  left: -900px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container_16:before,
+.container_16:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.container_16:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container_16 {
+  zoom: 1;
+}
+body {
+  background: #123;
+  color: #333;
+  font-size: 11px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {/*
+  border: 1px solid #666;*/
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container_12,
+.container_16,
+.container_24 {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+
+.container_12 {
+  background-image: url(../img/12_col.gif);
+}
+
+.container_16 {
+  background-image: url(../img/16_col.gif);
+}
+
+.container_24 {
+  background-image: url(../img/24_col.gif);
+}
+
+.navbar{
+  width: 940px;
+  background-color: #31302b;
+  position: relative;
+  border-bottom: 4px solid #ff5d00;
+}
+.isi-navbar1{
+  margin: 0;
+  text-align: left;
+}
+.isi-navbar2{
+  text-align: right;
+}
+.navbar .isi-navbar2 .img-2{
+  padding: 1px;
+  margin-right: 20px;
+}
+.navbar .isi-navbar2 img{
+  height: 60%;
+  width: 60%;
+}
+.navbar .table-navbar{
+  margin: 0;
+  top: 0;
+  width: 100%;
+}
+.navbar a{
+  float: none;
+  display: inline-block;
+  color: #f2f2f2;
+  font-weight: 600;
+  text-align: center;
+  font-family: serif, sans-serif;
+  padding: 0.8em 0.8em;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+.navbar .isi-navbar1 a:hover{
+  background: #676056;
+  border-top: 3px solid red;
+}
+.grid_7 img{ 
+  width: 140px;
+  height: 160px;
+  border-top: 2.2px solid #cf2031;
+  border-right: 2.2px solid #0f7dc8;
+  border-bottom: 2.2px solid #2eb31a;
+  border-left: 2.2px solid #eab823;
+  border-radius: 10em;
+}
+.header-content{
+  padding: 2em;
+  width: 520px;
+}
+.header-content p{
+  text-align: left;
+}
+hr{
+  width: 463px;
+}
+.instagram-box {
+  font-size: 10px;
+  background: #517fa4;
+  height: 20px;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #ff5d00;
+}
+.header{
+  margin: 0;
+  margin-left: 10px;
+  position: relative;
+  width: 98%;
+  background-color: #D3D3D3;
+  display: grid;
+  grid-template-columns: 5% auto;
+  border-bottom: 4px solid #ff5d00;
+}
+.header-table{
+  background-position: center;
+  width: 940px;
+}
+.container{
+  width: 100%;
+}
+.container hr{
+  margin: 0;
+  border: solid 2px #ff5d00; 
+}
+.table-container{
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 4px solid #ff5d00;
+}
+.table-container td{
+  vertical-align: top;
+}
+.title{
+  background-color: #ff5d00;
+  color: white;
+  display: inline-block;
+  padding: 0.4em 0.4em;
+  margin: 0;
+  border-bottom-right-radius: 12px;
+  margin-bottom: 10px;
+}
+.tentangku{
+  width: 50%;
+}
+.text{
+  line-height: 1.6;
+  font-family: verdana;
+  font-size: 11px;
+}
+.biodata{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.skills{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 300%; 
+    background-color: #ddd;
+    border-radius: 1.25em; 
+}
+.skillku img{
+  width: 50px;
+  height: 50px;
+}
+.gambarLogo{
+  width: 30%;
+}
+.kelasSkill{
+  width: 100%;
+}
+.kelasGambar{
+  margin-top: 2px;
+  margin-left: 30px;
+}
+.s{
+  width: 100%;
+  text-align: right; 
+  padding-top: 3px; 
+  padding-bottom: 3px; 
+  font-weight: bold;
+  color: black; 
+}
+.html{
+  width: 85%; 
+  background-color: #ff5100;
+  border-radius: 1.25em;
+    animation: html 6.5s ease-in-out forwards;
+  -webkit-animation: html 6.5s ease-in-out forwards;
+}
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 85%;
+  }
+}
+@-webkit-keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 85%;
+  }
+} 
+.css{
+  width: 70%; 
+  background-color: #2196F3;
+  border-radius: 1.25em;
+    animation: css 5.5s ease-in-out forwards;
+  -webkit-animation: css 5.5s ease-in-out forwards;
+}
+@keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}  
+.js{
+  width: 30%; 
+  background-color: #c7d10a;
+  border-radius: 1.25em;
+    animation: js 3.5s ease-in-out forwards;
+  -webkit-animation: js 3.5s ease-in-out forwards;
+}
+@keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30%;
+  }
+}
+@-webkit-keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30%;
+  }
+} 
+.php{
+  width: 70%; 
+  background-color: #46d106;
+  border-radius: 1.25em;
+    animation: php 5.5s ease-in-out forwards;
+  -webkit-animation: php 5.5s ease-in-out forwards;
+}
+@keyframes php {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes php {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+.laravel{
+  width: 73%; 
+  background-color: #d10618;
+  border-radius: 1.25em;
+    animation: laravel 5.7s ease-in-out forwards;
+  -webkit-animation: laravel 5.7s ease-in-out forwards;
+}
+@keyframes laravel {
+  from {
+    width: 0;
+  }
+  to {
+    width: 73%;
+  }
+}
+@-webkit-keyframes laravel {
+  from {
+    width: 0;
+  }
+  to {
+    width: 73%;
+  }
+}
+.java{
+  width: 50%; 
+  background-color: #808080;
+  border-radius: 1.25em;
+    animation: java 4.7s ease-in-out forwards;
+  -webkit-animation: java 4.7s ease-in-out forwards;
+}
+@keyframes java {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes java {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+} 
+.C{
+  width: 75%; 
+  background-color: #a806d1;
+  border-radius: 1.25em;
+    animation: c 6.7s ease-in-out forwards;
+  -webkit-animation: c 6.7s ease-in-out forwards;
+}
+@keyframes c {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-webkit-keyframes c {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+.mysql{
+  width: 65%;
+  background-color: #70310f;
+  border-radius: 1.25em;
+    animation: mysql 5.2s ease-in-out forwards;
+  -webkit-animation: mysql 5.2s ease-in-out forwards;
+}
+@keyframes mysql {
+  from {
+    width: 0;
+  }
+  to {
+    width: 65%;
+  }
+}
+@-webkit-keyframes mysql {
+  from {
+    width: 0;
+  }
+  to {
+    width: 65%;
+  }
+}
+
+.gayadua{
+  font-size: 15px;
+  width: 300px;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: gayadua 4s steps(200, end);
+  animation: gayadua 4s steps(200, end);
+}
+@keyframes gayadua{
+    from { width: 0; 
+    }
+}
+@-webkit-keyframes gayadua{
+    from { width: 0; 
+    }
+}
+.gayatiga{
+  line-height: 0;
+  font-size: 15px;
+  width: 720px;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: gayatiga 12s steps(200, end);
+  animation: gayatiga 12s steps(200, end);
+}
+@keyframes gayatiga{
+    from { width: 0; 
+    }
+}
+@-webkit-keyframes gayatiga{
+    from { width: 0; 
+    }
+} 
+#gayasatu {
+  line-height: 0;
+  animation: gayasatu 0s 2.9s forwards;
+  visibility: hidden;
+}
+
+@keyframes gayasatu {
+  to   { 
+    visibility: visible; 
+    }
+}
+.profil{
+  animation-name: slide;
+  animation-duration: 4.5s;
+  position: static;
+}
+@-webkit-keyframes slide {
+    2% { 
+      opacity: 0.1; 
+      margin-left: -10250px;
+    position: static;
+    }
+    100% { 
+      opacity: 1; 
+      margin-left: 0;
+    position: static;
+    }
+}
+
+@keyframes slide {
+    2% { 
+      opacity: 0.1; 
+      margin-left: -950px;
+    position: static;
+    }
+    100% { 
+      opacity: 1; 
+      margin-left: 0;
+    position: static;
+    }
+}
+
+.container-1{
+  width: 100%;
+  margin: 0;
+}
+.container-1 hr{
+  margin: 0;
+  border: solid 2px #ff5d00; 
+}
+.table-container-1{
+  width: 100%;
+  margin-top: 10px;
+  background-color: #D3D3D3;
+  border-bottom: 4px solid #ff5d00;
+}
+.table-container-1 .content-pendidikan:nth-child(odd){
+  background-color: #FFE5CC;
+}
+.pendidikan{
+  width: 50%;
+}
+.container-1 img{
+  width: 20%;
+  height: 20%;
+}
+.container-1 .content-pendidikan{
+  text-align: center;
+}
+.container-1 .content-pengalaman{
+  text-align: center;
+}
+.pend{
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.peng{
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.peng .content-pengalaman:nth-child(odd){
+  background-color: #FFE5CC;
+}
+.grid_8_2{
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+.container-2{
+  width: 940px;
+  margin: 0;
+  height: 200px;
+  margin-bottom: 0px;
+}
+.container-2 hr{
+  width: 934px;
+  margin: 0;
+  border: solid 2px #ff5d00;
+  margin-bottom: 0px;
+}
+.table-container-2{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.isi-kontak{
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+.container-2 .content-kontak{
+  text-align: center;
+}
+.container-2 img{
+  width: 80px;
+  height: 80px;
+}
+.container-2 .isi-kontak{
+  margin-left: 20%;
+  margin-right: 50%;  
+}
+.content-kontak .dicoding-icon{
+  width: 80px;
+  height: 80px;
+}
+.content-kontak .git-icon{  
+  width: 60px;
+  height: 60px;
+}
+.content-kontak .ig-icon{  
+  width: 60px;
+  height: 60px;
+}
+.content-kontak .link-icon{  
+  width: 65px;
+  height: 40px;
+}
+.footer{
+  margin-top: 0px;
+  position: relative;
+  left: 0;
+  width: 940px;
+  background-color: #31302b;
+  color: white;
+  text-align: center;
+  margin-bottom: 0%;
+}
