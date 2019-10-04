@@ -1,0 +1,33 @@
+#coba{
+  width: 100%;
+  height: 100%;
+  background: white;
+  animation: abc 0s 2.5s forwards;
+  visibility: visible;
+}
+
+@keyframes abc {
+  to  { 
+    visibility: hidden; 
+    }
+}
+
+#muncul {
+  animation: muncul 0s 2.5s forwards;
+  visibility: hidden;
+}
+
+@keyframes muncul {
+  to  { 
+    visibility: visible; 
+    }
+}
+.instagram-box{
+	animation: insta 0s 2.9s forwards;
+	visibility: hidden;
+}
+@keyframes insta{
+	to {
+		visibility: visible;
+	}
+}

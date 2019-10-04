@@ -1,0 +1,129 @@
+html{
+   scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+}
+.navbar{
+	top: 0;
+	background-color: #31302b;
+	position: fixed; 
+	left: 0;
+	width: 100%;
+	border-bottom: 4px solid #ff5d00;
+}
+.navbar img{
+	margin-top: 6.5px;
+	margin-left: 10px;
+	height: 36px;
+	width: 36px;
+}
+.container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+}
+.table-container{
+	width: 100%;
+}
+.title{
+	margin: 0;
+	margin-left: 43.4%;
+	display: inline-block;
+	padding: 0.8em 0.8em;
+	background-color: #ff5d00;
+	color: white;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.project1 .content{
+	font-family: sans-serif;
+	font-size: 17px;
+	margin-top: 1em;
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.project2 .content{
+	font-family: sans-serif;
+	font-size: 17px;
+	margin-top: 1em;
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.footer{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: #31302b;
+	color: white;
+	text-align: center;
+	margin-bottom: 0%;
+}
+.gayaempat{
+	animation-name: slide;
+	animation-duration: 4.5s;
+	position: static;
+}
+@-webkit-keyframes slide {
+    2% { 
+    	opacity: 0.1; 
+    	margin-left: -10250px;
+		position: static;
+    }
+    100% { 
+    	opacity: 1; 
+    	margin-left: 0;
+		position: static;
+    }
+}
+
+@keyframes slide {
+    2% { 
+    	opacity: 0.1; 
+    	margin-left: -950px;
+		position: static;
+    }
+    100% { 
+    	opacity: 1; 
+    	margin-left: 0;
+		position: static;
+    }
+}
+
+.gayalima{
+	animation-name: abc;
+	animation-duration: 4.5s;
+	position: static;
+}
+@-webkit-keyframes abc {
+    2% { 
+    	opacity: 0.1; 
+    	margin-right: -10250px;
+		position: static;
+    }
+    100% { 
+    	opacity: 1; 
+    	margin-right: 0;
+		position: static;
+    }
+}
+
+@keyframes abc {
+    2% { 
+    	opacity: 0.1; 
+    	margin-right: -950px;
+		position: static;
+    }
+    100% { 
+    	opacity: 1; 
+    	margin-right: 0;
+		position: static;
+    }
+}

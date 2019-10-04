@@ -1,0 +1,60 @@
+#load-gambar1{
+    margin-top: 10%;
+}
+#load-gambar{
+    -moz-animation: menghilang 0s ease-in 2.5s forwards;
+    /* Firefox */
+    -webkit-animation: menghilang 0s ease-in 2.5s forwards;
+    /* Safari and Chrome */
+    -o-animation: menghilang 0s ease-in 2.5s forwards;
+    /* Opera */
+    animation: menghilang 0s ease-in 2.5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menghilang{
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes menghilang{
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+#load-gambar2{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#load-gambar_2{
+    margin-left: auto;
+    margin-right: auto;
+    -moz-animation: l_menghilang 0s ease-in 2.5s forwards;
+    /* Firefox */
+    -webkit-animation: l_menghilang 0s ease-in 2.5s forwards;
+    /* Safari and Chrome */
+    -o-animation: l_menghilang 0s ease-in 2.5s forwards;
+    /* Opera */
+    animation: l_menghilang 0s ease-in 2.5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes l_menghilang{
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes l_menghilang{
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
