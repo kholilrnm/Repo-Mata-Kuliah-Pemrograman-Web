@@ -1,0 +1,8 @@
+th{
+    background-color: #4caf50;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: rgb(180, 180, 180);
+}
